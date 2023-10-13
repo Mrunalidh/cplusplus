@@ -1,0 +1,65 @@
+Document: 
+System Requirement Specification Document (SRS)
+
+Client:Administrator,Manufacturer, Customer, Seller,Shipping company.
+Team: Direct customer, Software Architect,
+QA Engineer, Business Analyst, Developers, DevOps Engineer,System Engineer
+
+Objective:
+The VijaySales is a website designed to enable the sellers and vendors to connect with the customers through a single platform. 
+All the electronics products are avaiable on a single roof.
+The vendors will get the opportunity to host their products on the website.
+The customers will be able to explore different products available on the website and buy the products.
+The customers will be able to place and track orders efficiently.
+
+Scope:
+The vendors and sellers will be able to keep the track of the orders received.
+It will be easier for the vendors to deliver the products on time and give the updates of the orders to the customers through the website. 
+The customers will get an option of adding the products to their carts and buy them later. 
+The customer can update the delivery addresses in their profiles. 
+
+
+Functional requirements:
+
+Display products:
+All the products and their descriptions will be displayed on the website. 
+The customers can filter the products based on the price, brands etc.
+The unavailable products will have a “out of stock” tag.
+
+Login and registration:
+The products will be displayed to the customers. To place the order or add the product to the cart, the customer should login and if the customer is a new customer, then he/she will be required to sign up. 
+
+Orders:
+The vendors will receive the orders when a customer places an order/orders.
+The vendors will have the authority to accept or decline the orders from the customers. 
+All the details regarding the orders will be sent to the customers after their order is confirmed. 
+
+Non-functional Requirements:
+Security: 
+Only the authorized users with valid login details will be able to place order and add products to cart. 
+Only the authorized person can modify or update the data on the website.  
+
+Reliability: 
+The system will have the regular backups. Monitoring will be done to see for the issues.
+It will have the recovery mechanism to ensure that there is no data loss in case of system crash. 
+
+Performance: 
+The website shall be responsive enough to handle many users logging and accessing the website at the same time.
+It shall have mechanisms so that the responses to the user will be quick or will take less time comparatively. 
+
+Scalability:
+The system will be able to extend more modules in the future if required. 
+It can handle increased workloads with minimum cost impact.
+
+Modularity:
+The system will be designed using different modules. 
+Having different modules will enable to manage the data and operate on that data efficiently
+
+
+
+
+
+
+
+
+
